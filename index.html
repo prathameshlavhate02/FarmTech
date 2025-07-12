@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmTech</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.jpg" alt="FarmTech Logo">
+                <span>FarmTech</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home-section" onclick="scrollToHome(event)">Home</a></li>
+                <li><a href="#about-section" onclick="scrollToAbout(event)">About Us</a></li>
+                <li><a href="tutorial/video.php">Tutorial</a></li>
+                <li><a href="#categories-section" onclick="scrollToCategories(event)">Categories</a></li>
+                <li><a href="chatbot-ai/index.html">AI Chatbot</a></li>
+                <li><a href="#contact-section" onclick="scrollToContact(event)">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- main container -->
+    <div class="image-container" id="home-section">
+        <img src="image/2.jpg" alt="Agriculture">
+
+        <div class="overlay-text-1">WELCOME TO FARMTECH</div>
+        <div class="overlay-text-2">YOU ARE A</div>
+        <div class="login">
+            <button id="Farmerbutton"><a id="link" href="login/FarmerLogin.php">Farmer</a></button>
+            <button id="Buyerbutton"><a id="link" href="login/BuyerLogin.php">Buyer</a></button>
+        </div>
+    </div>
+
+    <div class="grid-container" id="categories-section">
+        <div class="grid-item">
+            <img src="image/1-1.avif" alt="Image 1">
+            <div class="hover-text">Agriculture Products</div>
+            <a href="information/product.html">See More</a>
+        </div>
+        <div class="grid-item">
+            <img src="image/1-2.jpg" alt="Image 2">
+            <div class="hover-text">Fresh Vegatables</div>
+            <a href="information/vegatables.html">See More</a>
+        </div>
+        <div class="grid-item">
+            <img src="image/1-3.jpg" alt="Image 3">
+            <div class="hover-text">Farm Factory</div>
+            <a href="information/factory.html">See More</a>
+        </div>
+    </div>
+
+    <div class="company" id="about-section">
+        <div class="container">
+            <div class="content">
+                <h2>FarmTech</h2>
+                <h3>FARM AND COMPANY</h3>
+                <p>
+                    Farm Tech: Smart Farming Solutions for Small-Scale Farmers" is a transformative initiative aimed at
+                    integrating advanced technologies into traditional agriculture, specifically designed to benefit
+                    small-scale farmers. As the global demand for food rises, the agricultural sector faces challenges
+                    like resource scarcity, climate change, and the need for sustainable practices. Small-scale farmers,
+                    who are often limited by resources, are especially vulnerable to these challenges. AgriTech
+                    solutions, including precision farming, IoT (Internet of Things) devices, data analytics, and mobile
+                    applications, offer them the tools to optimize crop yield, reduce costs, and minimize environmental
+                    impact.
+
+                </p>
+                <p>
+                    This approach empowers small farmers to make data-driven decisions, monitor crop health, manage
+                    water resources efficiently, and improve productivity. By embracing smart farming, small-scale
+                    farmers can gain a competitive edge, increase their income, and contribute to food security in their
+                    communities. This initiative is crucial for modernizing small-scale farming, making agriculture more
+                    resilient, sustainable, and productive for future generations.
+                </p>
+                <a href="company.html"><button class="read-more">Read More</button></a>
+            </div>
+            <div class="image-circle">
+                <img src="image/company.png" alt="Wheat">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="stats-container">
+        <div class="stats-item">
+            <img src="image/farmer-icon.jpg" alt="Farmers">
+            <h3>1200</h3>
+            <p>Count of Farmers</p>
+        </div>
+        <div class="stats-item">
+            <img src="image/viewer-icon.png" alt="Viewers">
+            <h3 id="viewerCount">0</h3>
+            <p>Live Viewers</p>
+        </div>        
+        <div class="stats-item">
+            <img src="image/animal-icon.png" alt="Animals">
+            <h3>800</h3>
+            <p>Count of Animals</p>
+        </div>
+        <div class="stats-item">
+            <img src="image/shop-icon.jpg" alt="Shops">
+            <h3>150</h3>
+            <p>Shops Selling Products</p>
+        </div>
+    </div> -->
+    <!-- <div class="stats-container">
+        <div class="stats-item">
+            <img src="image/farmer-icon.jpg" alt="Farmers">
+            <h3 id="farmerCount">0</h3>
+            <p>Count of Farmers</p>
+        </div>
+        <div class="stats-item">
+            <img src="image/viewer-icon.png" alt="Viewers">
+            <h3 id="viewerCount">0</h3>
+            <p>Live Viewers</p>
+        </div>
+        <div class="stats-item">
+            <img src="image/shop-icon.jpg" alt="Shops">
+            <h3 id="shopCount">0</h3>
+            <p>Shops Selling Products</p>
+        </div>
+        <div class="stats-item">
+            <img src="image/land-icon.png" alt="Agriculture Land">
+            <h3 id="landCount">0</h3>
+            <p>Hectares of Cultivated Land</p>
+        </div>
+    </div> -->
+
+    <!-- <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191232.30777732737!2d73.7329927376349!3d16.70498733165851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2366ef74b6f9f%3A0x96c82d3e1f1c5eaf!2sKolhapur%2C%20Maharashtra%20416003!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy">
+
+        </iframe>
+    </div> -->
+    <!-- Include Bootstrap Icons (if not already included in your project) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <section class="contact">
+        <div class="map">
+            <div class="map-info" style="width: 30%;">
+                <h3>
+                    <i class="bi bi-geo-alt-fill"></i> Location:
+                </h3>
+                <p>2130, E Ward, Tarabai Park, Kolhapur, Maharashtra 416003</p>
+
+                <h3>
+                    <i class="bi bi-envelope-fill"></i> Email:
+                </h3>
+                <p><a href="">farmtech@gmail.com</a></p>
+
+                <h3>
+                    <i class="bi bi-telephone-fill"></i> Call:
+                </h3>
+                <p>8999054381</p>
+            </div>
+
+            <div class="map-frame" style="width: 70%;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191232.30777732737!2d73.7329927376349!3d16.70498733165851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2366ef74b6f9f%3A0x96c82d3e1f1c5eaf!2sKolhapur%2C%20Maharashtra%20416003!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="contact-section" id="contact-section">
+        <h2>Contact Us</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="27a1a427-8078-4ed3-9cb1-a60de2a89417">
+            <input type="text" name="name" placeholder="Your Name" id="name" required>
+            <input type="number" name="number" placeholder="Your Phone Number" id="Number" required>
+            <input type="email" name="email" id="email" required placeholder="Email">
+            <textarea name="message" rows="5" placeholder="Describe your problem..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+
+
+    <footer class="footer">
+
+
+
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Department of FarmTech</h3>
+                <p>Government of Maharashtra, India</p>
+                <img src="logo.png" alt="Footer Logo" class="footer-image">
+
+            </div>
+            <div class="footer-section">
+                <h3>Useful Links</h3>
+                <a href="#" onclick="scrollToTop()">Home</a>
+                <a href="#" onclick="scrollToTop()">About us</a>
+                <a href="#" onclick="scrollToTop()">Objective</a>
+                <a href="#" onclick="scrollToTop()">Terms of service</a>
+                <a href="#" onclick="scrollToTop()">Privacy policy</a>
+            </div>
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p>2130, E Ward, Tarabai Park <br>Kolhapur, Maharashtra 416003</p>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p><strong>Phone:</strong> 8999054381</p>
+                <p><strong>Email:</strong> <a href="mailto:farmtech@gmail.com">farmtech@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; Copyright <strong>Department of FarmTech, Government of Maharashtra, India.</strong> All Rights
+            Reserved.
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+<script>
+
+    // Run functions on page load
+    window.onload = function () {
+        updateViewerCount();
+        updateFarmerCount();
+        updateShopCount();
+        updateLandCount();
+    };
+
+    function scrollToHome(event) {
+        event.preventDefault();
+        document.getElementById('home-section').scrollIntoView({ behavior: 'smooth' });
+    }
+    function scrollToAbout(event) {
+        event.preventDefault();
+        document.getElementById('about-section').scrollIntoView({ behavior: 'smooth' });
+    }
+    function scrollToCategories(event) {
+        event.preventDefault();
+        document.getElementById('categories-section').scrollIntoView({ behavior: 'smooth' });
+    }
+    function scrollToContact(event) {
+        event.preventDefault();
+        document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+</html>
