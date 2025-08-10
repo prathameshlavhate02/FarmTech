@@ -1,4 +1,4 @@
-<img width="1884" height="900" alt="Screenshot 2025-08-10 191907" src="https://github.com/user-attachments/assets/2c759ab2-248e-4389-bc43-75b246ebaf5d" />🌾 FarmTech
+🌾 FarmTech
 
 FarmTech is a modern platform designed to bridge the gap between farmers and buyers, making agricultural trade easier, transparent, and more efficient.
 
@@ -11,9 +11,13 @@ FarmTech is a modern platform designed to bridge the gap between farmers and buy
 •	📞 Contact Us – Seamless communication between stakeholders.
 
 📸 Preview
+
 <img width="1919" height="848" alt="Screenshot 2025-08-10 192010" src="https://github.com/user-attachments/assets/524738f7-e2aa-41a6-adbc-b3cabea1df3f" />
+
 <img width="1898" height="891" alt="Screenshot 2025-08-10 191946" src="https://github.com/user-attachments/assets/6c1e5b7d-0296-4512-bce5-64bcabc9c97f" />
+
 <img width="1887" height="911" alt="Screenshot 2025-08-10 191926" src="https://github.com/user-attachments/assets/89f8cc99-6282-4021-ad1e-15273fe831b6" />
+
 <img width="1884" height="900" alt="Screenshot 2025-08-10 191907" src="https://github.com/user-attachments/assets/d0162d9c-eb64-4d42-90fb-4c3f268b67e5" />
 
 
