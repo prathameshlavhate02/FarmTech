@@ -3,12 +3,19 @@
 FarmTech is a modern platform designed to bridge the gap between farmers and buyers, making agricultural trade easier, transparent, and more efficient.
 
 ✨ Features
+
 •	🧑‍🌾 Farmer Dashboard – Easily list products, set prices, and manage sales.
+
 •	🛒 Buyer Interface – Browse products, place orders, and track deliveries.
+
 •	🤖 AI Chatbot – Instant support for farmers and buyers.
+
 •	📚 Tutorials – Educational content for farming best practices.
+
 •	📂 Categories – Browse products by type for quick access.
+
 •	📞 Contact Us – Seamless communication between stakeholders.
+
 
 📸 Preview
 
@@ -22,18 +29,27 @@ FarmTech is a modern platform designed to bridge the gap between farmers and buy
 
 
 🛠️ Tech Stack
+
 Frontend: HTML5, CSS3, JavaScript
+
 Backend: PHP
+
 Database: MySQL
+
 Other Tools: Font Awesome, Google Fonts
+
 🚀 Getting Started
+
 1️⃣ Clone the repository:
 git clone https://github.com/yourusername/FarmTech.git
+
 2️⃣ Navigate to project folder:
 cd FarmTech
+
 3️⃣ Setup database:
 - Import the `.sql` file from the `/database` folder into phpMyAdmin.
 - Update database credentials in `db_connect.php`.
+  
 4️⃣ Run the project:
 - Place the project folder in `htdocs` (XAMPP) or your server's root directory.
 - Start Apache and MySQL.
